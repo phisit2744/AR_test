@@ -12,12 +12,22 @@
     <a-scene
       vr-mode-ui="enabled: false"
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
-    <a-video
-    src="Data-ar/ar.mp4"
-    look-at="[gps-camera]"
-    scale="20 20 20"
-    gps-entity-place="latitude:17.821053; longitude:102.737307;">
-    </a-video>
+      <a-text
+      value="เจดีย์พระธาตุบังพวน เป็นเจดีย์ทรงสี่เหลี่ยม สร้างด้วยศิลาแลง อิฐดินเผา สร้างเมื่อพ.ศ. 2210 "
+      look-at="[gps-camera]"
+      scale="10 10 10"
+      gps-entity-place="latitude: 17.820993; longitude: 102.737271;"
+    ></a-text>
+
+    <a-text
+      value="พระธาตุบังพวน
+      คำว่า บังพวน อาจมีความหมายเดียวกับคำว่า บังคน หรือที่ชาวบ้านเรียกว่า ขี้โพ้น ที่แปลว่า กระเพาะอาหาร ตามความเชื่อเกี่ยวกับเรื่องพระธาตุ อันเป็นที่บรรจุพระบังคนหนักของพระพุทธเจ้า"
+      look-at="[gps-camera]"
+      scale="10 20 90"
+      gps-entity-place="latitude: 17.820993; longitude: 102.737271;"
+    ></a-text>
+
+
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
